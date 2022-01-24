@@ -11,7 +11,7 @@ import SiteHeader from "./components/SiteHeader";
 
 //Apollo client
 const client = new ApolloClient({
-  uri: "http://localhost:1337/graphql",
+  uri: "https://objective-feynman-60d794.netlify.app/graphql",
   cache: new InMemoryCache(),
 });
 
